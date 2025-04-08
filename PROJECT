@@ -7,4 +7,14 @@ layout:
 - go.kubebuilder.io/v4
 projectName: kubebuilder-intro
 repo: github.com/Parth099/learning-k8s
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: parthpatel.dev
+  group: batch
+  kind: CronJob
+  path: github.com/Parth099/learning-k8s/api/v1
+  version: v1
 version: "3"

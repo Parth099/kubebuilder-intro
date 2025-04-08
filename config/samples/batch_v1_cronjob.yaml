@@ -1,0 +1,9 @@
+apiVersion: batch.parthpatel.dev/v1
+kind: CronJob
+metadata:
+  labels:
+    app.kubernetes.io/name: kubebuilder-intro
+    app.kubernetes.io/managed-by: kustomize
+  name: cronjob-sample
+spec:
+  # TODO(user): Add fields here
